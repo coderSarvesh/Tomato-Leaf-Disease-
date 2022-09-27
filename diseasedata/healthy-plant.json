@@ -2,5 +2,7 @@
     "name":"Healthy Plant",
 
     "about":"Your crops are Healthy. You have taken good care of them.",
-    "remedy":""
+    "remedy":"",
+    "slug":"healthy-plant"
+
 }

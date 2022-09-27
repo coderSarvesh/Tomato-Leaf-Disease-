@@ -3,6 +3,7 @@
 
     "about":"This destructive disease of tomato foliage, petioles, and stems (fruit is not infected) is caused by the fungus Septoria lycopersici. Infection usually occurs on the lower leaves near the ground, after plants begin to set fruit. Numerous small, circular spots with dark borders surrounding a beige-colored center appear on the older leaves. Tiny black specks, which are spore-producing bodies, can be seen in the center of the spots. Severely spotted leaves turn yellow, die, and fall off the plant. The fungus is most active when temperatures range from 68 to 77° F, the humidity is high, and rainfall or overhead irrigation wets the plants. Defoliation weakens the plant, reduces the size and quality of the fruit, and exposes the fruit to sunscald (see below). The fungus is not soil-borne but can overwinter on crop residue from previous crops, decaying vegetation, and on some weeds related to tomato.",
     
-    "remedy":"Most currently grown tomato cultivars are susceptible to Septoria leaf spot. Crop rotation of 3 years and sanitation (removal of crop debris) will reduce the amount of inoculum. Do not use overhead irrigation. Repeated fungicide applications with chlorothalonil (very good) or copper fungicide, or mancozeb (good) will keep the disease in check."
-    
+    "remedy":"Most currently grown tomato cultivars are susceptible to Septoria leaf spot. Crop rotation of 3 years and sanitation (removal of crop debris) will reduce the amount of inoculum. Do not use overhead irrigation. Repeated fungicide applications with chlorothalonil (very good) or copper fungicide, or mancozeb (good) will keep the disease in check.",
+    "slug":"septoria-leaf-spot"
+   
 }
