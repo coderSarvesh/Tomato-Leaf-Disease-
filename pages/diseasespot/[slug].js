@@ -1,6 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react'
+import styles from '../../styles/Home.module.css'
 
 const slug = () => {    
       const [disease, setDisease] = useState()
@@ -16,8 +17,8 @@ const slug = () => {
       }, [router.isReady])
 
       return (
-            <div>
-                  <main>
+            <div className={styles.container}>
+                  <main className={styles.main}>
                         <h1>{disease && disease.name}</h1>
                         <p>{disease && disease.about}</p>
                         <p>{disease && disease.remedy}</p>

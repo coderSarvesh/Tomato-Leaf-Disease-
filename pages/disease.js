@@ -7,7 +7,8 @@ const Disease = () => {
     const [disease, setDisease] = useState([])
     useEffect(() => {
         console.log("I run once");
-        fetch('http://localhost:3000/api/getdisease').then((a) => {
+        // fetch('http://localhost:3000/api/getdisease').then((a) => {
+        fetch('http://localhost:3000/api/diseases').then((a) => {
             return a.json();
         }).then((parsed) => {
             // console.log(parsed);
