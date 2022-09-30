@@ -18,7 +18,7 @@ export default function Home() {
         <h2  className={styles.h3}>Endpoints</h2>
 
 
-        <Link href={'/disease'}>
+        <Link href='/disease'>
         <h3>All Diseases</h3>
         </Link>
 
