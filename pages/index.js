@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,9 +16,37 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Tomato Leaf  Disease Detection</h1>
         <h2>Backend for the disease detection application</h2>
-        <h3>Endpoints</h3>
-        <h3>/late-blight</h3>
-        <h3>diseasespot/bacterial-spot</h3>
+        <h2  className={styles.h3}>Endpoints</h2>
+
+
+        <Link href={'/disease'}>
+        <h3>All Diseases</h3>
+        </Link>
+
+        <Link href={'diseasespot/bacterial-spot'}>
+        <h3>Bacterial spot</h3>
+        </Link>
+     
+        <Link href={'diseasespot/early-blight'}>
+        <h3>Early blight</h3>
+        </Link>
+     
+        <Link href={'diseasespot/healthy-plant'}>
+        <h3>Healthy</h3>
+        </Link>
+     
+        <Link href={'diseasespot/late-blight'}>
+        <h3>Late-blight</h3>
+        </Link>
+     
+        <Link href={'diseasespot/leaf-mold'}>
+        <h3>Leaf mold</h3>
+        </Link>
+     
+        <Link href={'diseasespot/septoria-leaf-spot'}>
+        <h3>Septoria leaf spot</h3>
+        </Link>
+     
       </main>
 
     </div>
