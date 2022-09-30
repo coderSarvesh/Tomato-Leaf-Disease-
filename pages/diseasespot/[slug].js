@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react'
 import styles from '../../styles/Home.module.css'
 
-const slug = () => {    
+const Slug = () => {    
       const [disease, setDisease] = useState()
       const router = useRouter();
       useEffect(() => {
@@ -28,8 +28,4 @@ const slug = () => {
 }
 
 
-export default slug;
-// const slug = () => {
-//       const router = useRouter();
-//       const  slug  = router.query;
-// };
+export default Slug;
