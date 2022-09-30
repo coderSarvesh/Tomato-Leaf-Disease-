@@ -8,10 +8,10 @@ const Disease = () => {
     useEffect(() => {
         console.log("I run once");
         // fetch('http://localhost:3000/api/getdisease').then((a) => {
-        fetch('https://tomato-leaf-disease.vercel.app/pages/api/diseases').then((a) => {
+        fetch('https://tomato-leaf-disease.vercel.app/api/diseases').then((a) => {
             return a.json();
         }).then((parsed) => {
-            // console.log(parsed);
+            console.log(parsed);
             setDisease(parsed)
         })
     }, [])
