@@ -9,7 +9,7 @@ const Slug = () => {
       useEffect(() => {
             if(!router.isReady) return;
             const { slug } = router.query;
-          fetch(`https://tomato-leaf-disease.vercel.app/api/getdisease?slug=${slug}`).then((a) => {
+          fetch(`https://tomato-leaf-disease.vercel.app/api/getdiseases?slug=${slug}`).then((a) => {
               return a.json();
           }).then((parsed) => {
               setDisease(parsed)
